@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hail – Weekly Route Plan</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #e0f7fa;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #B3375A;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #46878A;
+    margin-bottom: 12px;
+}
+.day-btn {
+    display: inline-block;
+    width: 180px;
+    padding: 18px 0;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.details {
+    display: none;
+    background: #ffffffcc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+a {
+    color: #0066cc;
+    font-weight: bold;
+}
+.divider {
+    width: 80%;
+    margin: 40px auto;
+    border-bottom: 2px solid #46878A;
+    border-radius: 50px;
+    height: 0;
+}
+.note {
+    font-size: 12px;
+    color: #555;
+    margin-top: 8px;
+}
+</style>
+<script>
+function toggleDetails(id) {
+    var box = document.getElementById(id);
+    if (box.style.display === "block") {
+        box.style.display = "none";
+    } else {
+        box.style.display = "block";
+    }
+}
+</script>
+</head>
+<body>
+
+<h1>Hail – Weekly Route Plan</h1>
+
+<!-- Osman Alawadh -->
+<div class="promoter">
+  <h2>Osman Alawadh</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('os_sun')">SUN</div>
+  <div class="details" id="os_sun">
+    <p><b>Outlet:</b> HAI_T Jana Hail Al Mawad Lil Gazaiyat_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129094</p>
+    <p><a href="https://maps.app.goo.gl/Hy8TscwVTuL4w8uu6?g_st=awb" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('os_mon')">MON</div>
+  <div class="details" id="os_mon">
+    <p><b>Day off.</b></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('os_tue')">TUE</div>
+  <div class="details" id="os_tue">
+    <p><b>Outlet:</b> HAI_T Jana Hail Al Mawad Lil Gazaiyat_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129094</p>
+    <p><a href="https://maps.app.goo.gl/Hy8TscwVTuL4w8uu6?g_st=awb" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('os_wed')">WED</div>
+  <div class="details" id="os_wed">
+    <p><b>Outlet:</b> HAI_T Jana Hail Al Mawad Lil Gazaiyat_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129094</p>
+    <p><a href="https://maps.app.goo.gl/Hy8TscwVTuL4w8uu6?g_st=awb" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('os_thu')">THU</div>
+  <div class="details" id="os_thu">
+    <p><b>Outlet:</b> HAI_Tamwenat Roken Jana_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115921</p>
+    <p><a href="https://maps.app.goo.gl/iP4efAxQXPKTo7eq8?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('os_fri')">FRI</div>
+  <div class="details" id="os_fri">
+    <p><b>Outlet:</b> HAI_T Jana Hail Al Mawad Lil Gazaiyat_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129094</p>
+    <p><a href="https://maps.app.goo.gl/Hy8TscwVTuL4w8uu6?g_st=awb" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('os_sat')">SAT</div>
+  <div class="details" id="os_sat">
+    <p><b>Outlet:</b> HAI_Anwan Al Waha Ghazayat_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966131415096</p>
+    <p><a href="https://maps.app.goo.gl/22cVcNUCt437x5Hh9?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Jamal Mohammed Makhlouf -->
+<div class="promoter">
+  <h2>Jamal Mohammed Makhlouf</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('ja_sun')">SUN</div>
+  <div class="details" id="ja_sun">
+    <p><b>Outlet:</b> HAI_T Ghanam Halal Wusayta_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129073</p>
+    <p><a href="https://maps.app.goo.gl/uFPqtXsyttECWpEk6?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('ja_mon')">MON</div>
+  <div class="details" id="ja_mon">
+    <p><b>Day off.</b></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ja_tue')">TUE</div>
+  <div class="details" id="ja_tue">
+    <p><b>Outlet:</b> HAI_T Ghanam Halal Wusayta_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129073</p>
+    <p><a href="https://maps.app.goo.gl/uFPqtXsyttECWpEk6?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ja_wed')">WED</div>
+  <div class="details" id="ja_wed">
+    <p><b>Outlet:</b> HAI_T Ghanam Halal Wusayta_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129073</p>
+    <p><a href="https://maps.app.goo.gl/uFPqtXsyttECWpEk6?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('ja_thu')">THU</div>
+  <div class="details" id="ja_thu">
+    <p><b>Outlet:</b> HAI_T Ghanam Halal Wusayta_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129073</p>
+    <p><a href="https://maps.app.goo.gl/uFPqtXsyttECWpEk6?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('ja_fri')">FRI</div>
+  <div class="details" id="ja_fri">
+    <p><b>Outlet:</b> HAI_T Ghanam Nuqra_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361114242</p>
+    <p><a href="https://maps.app.goo.gl/g4FDvEZmroRGbyY6A?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('ja_sat')">SAT</div>
+  <div class="details" id="ja_sat">
+    <p><b>Outlet:</b> HAI_T Ghanam Halal Wusayta_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 9661231129073</p>
+    <p><a href="https://maps.app.goo.gl/uFPqtXsyttECWpEk6?g_st=ipc" target="_blank">Open Google Maps</a></p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Omar & Mahmoud -->
+<div class="promoter">
+  <h2>Omar Farhan & Mahmoud Monther (Shifts)</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('om_sun')">SUN</div>
+  <div class="details" id="om_sun">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Day shift: Omar – Night shift: Mahmoud.</p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('om_mon')">MON</div>
+  <div class="details" id="om_mon">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Day shift: Omar – Night shift: Mahmoud.</p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('om_tue')">TUE</div>
+  <div class="details" id="om_tue">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Day shift: Omar – Night shift: Mahmoud.</p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('om_wed')">WED</div>
+  <div class="details" id="om_wed">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Day shift: Omar – Night shift: Mahmoud.</p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('om_thu')">THU</div>
+  <div class="details" id="om_thu">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Day shift: Omar – Night shift: Mahmoud.</p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('om_fri')">FRI</div>
+  <div class="details" id="om_fri">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Omar: Day off – Mahmoud: Night shift.</p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('om_sat')">SAT</div>
+  <div class="details" id="om_sat">
+    <p><b>Outlet:</b> HAI_Wahatal Mutamayuz_SIS(TB)MN_BR</p>
+    <p><b>Unicode:</b> 96612361116420</p>
+    <p><a href="https://goo.gl/maps/UXRxe8sX5jW3xSzU9" target="_blank">Open Google Maps</a></p>
+    <p class="note">Mahmoud: Day off – Omar: Night shift.</p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Mamdouh -->
+<div class="promoter">
+  <h2>Mamdouh Auwad M Alshammari</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('ma_sun')">SUN</div>
+  <div class="details" id="ma_sun">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('ma_mon')">MON</div>
+  <div class="details" id="ma_mon">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ma_tue')">TUE</div>
+  <div class="details" id="ma_tue">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ma_wed')">WED</div>
+  <div class="details" id="ma_wed">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('ma_thu')">THU</div>
+  <div class="details" id="ma_thu">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('ma_fri')">FRI</div>
+  <div class="details" id="ma_fri">
+    <p><b>Day off.</b></p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('ma_sat')">SAT</div>
+  <div class="details" id="ma_sat">
+    <p><b>Outlet:</b> HAI_Markaz Mutlaq Nasar_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 966123117488</p>
+    <p><a href="https://maps.app.goo.gl/Mv32T3YYyqb7gSBg7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Baher -->
+<div class="promoter">
+  <h2>Baher Emadedin Shalabi</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('ba_sun')">SUN</div>
+  <div class="details" id="ba_sun">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('ba_mon')">MON</div>
+  <div class="details" id="ba_mon">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ba_tue')">TUE</div>
+  <div class="details" id="ba_tue">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('ba_wed')">WED</div>
+  <div class="details" id="ba_wed">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('ba_thu')">THU</div>
+  <div class="details" id="ba_thu">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('ba_fri')">FRI</div>
+  <div class="details" id="ba_fri">
+    <p><b>Day off.</b></p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('ba_sat')">SAT</div>
+  <div class="details" id="ba_sat">
+    <p><b>Outlet:</b> HAI_T Sallat Hail_DS(GT)_MN_BR</p>
+    <p><b>Unicode:</b> 96612361115922</p>
+    <p><a href="https://maps.app.goo.gl/fk9772Vde234Dyvz7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Eslam -->
+<div class="promoter">
+  <h2>Eslam Emadedin Shalabi</h2>
+  <div class="day-btn" style="background:#ffca28" onclick="toggleDetails('es_sun')">SUN</div>
+  <div class="details" id="es_sun">
+    <p><b>Day off.</b></p>
+  </div>
+
+  <div class="day-btn" style="background:#42a5f5" onclick="toggleDetails('es_mon')">MON</div>
+  <div class="details" id="es_mon">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('es_tue')">TUE</div>
+  <div class="details" id="es_tue">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#66bb6a" onclick="toggleDetails('es_wed')">WED</div>
+  <div class="details" id="es_wed">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ab47bc" onclick="toggleDetails('es_thu')">THU</div>
+  <div class="details" id="es_thu">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#ef5350" onclick="toggleDetails('es_fri')">FRI</div>
+  <div class="details" id="es_fri">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+
+  <div class="day-btn" style="background:#8d6e63" onclick="toggleDetails('es_sat')">SAT</div>
+  <div class="details" id="es_sat">
+    <p><b>Outlet:</b> DMM_Tamyoz Lounge Hail_LMP_MN_C&C</p>
+    <p><b>Unicode:</b> 966114103825</p>
+    <p><a href="https://maps.app.goo.gl/yVceQEfwwvt3sDTP7?g_st=iw" target="_blank">Open Google Maps</a></p>
+  </div>
+</div>
+
+</body>
+</html>
